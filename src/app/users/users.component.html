@@ -1,0 +1,23 @@
+<div class="container pt-5">
+    <h4>List Of users</h4>
+<table class="table table-striped">
+    <thead>
+        <th>Name</th>
+        <th>age</th>
+        <th>salary </th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td>{{user.name}}</td>
+            <td>{{user.age}}</td>
+            <td>{{user.salary}}</td>
+
+        </tr>
+    </tbody>
+</table>
+
+
+    <ul>
+        <li *ngFor="let friend of friends">{{friend}}</li>
+    </ul>
+</div>
